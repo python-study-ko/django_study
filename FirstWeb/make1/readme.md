@@ -19,3 +19,5 @@
     python manage.py runserver >> 127.0.0.1:8000/admin
 ### 10. admin페이지에서 질문3개와 각 질문에 대해 선택할 답변 3개씩 추가해두기
 ### 11. URLconf 코딩
+### 12. index 템플릿,뷰 구
+    127.0.0.1/polls 작동 접속하여 확인
