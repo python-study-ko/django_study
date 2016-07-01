@@ -8,3 +8,4 @@
     python manage.py migrate
 ### 4. 관리자계정 생성
     python manage.py createsuperuser
+### 5. settings.py에 polls앱 추가 및 시간대 변경
