@@ -11,3 +11,10 @@
     python manage.py createsuperuser
 ### 5. settings.py에 polls앱 추가 및 시간대 변경
 ### 6. model.py 질문,답변 모델 정의(테이블 정의)
+### 7. admin.py 에 모델 추가
+### 8. DB마이그레이션
+    python manage.py makemigrations
+    python manage.py migrate
+### 9. 127.0.0.1:8000/admin에 접속후 정상적으로 question 및 choice 등록되있는지 확인
+    python manage.py runserver >> 127.0.0.1:8000/admin
+    
