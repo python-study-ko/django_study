@@ -17,4 +17,4 @@
     python manage.py migrate
 ### 9. 127.0.0.1:8000/admin에 접속후 정상적으로 question 및 choice 등록되있는지 확인
     python manage.py runserver >> 127.0.0.1:8000/admin
-    
+### 10. admin페이지에서 질문3개와 각 질문에 대해 선택할 답변 3개씩 추가해두기
