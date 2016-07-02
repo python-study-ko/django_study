@@ -26,4 +26,6 @@
 ### 15. vote 템플릿,뷰 구현
     127.0.0.1/polls에서 임의로 질문 하나 선택하고 답변선택해 'vote'클릭해보기
     admin에서 해당 답변을 확인해보면 vote값이 1추가된걸 확인가능
+### +hotfix views.py import Choice
+
 
