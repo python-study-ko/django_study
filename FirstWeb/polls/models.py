@@ -1,9 +1,10 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 # Create your models here.
 class Question(models.Model):
     # 질문 필드(최대 문자열 길이 200)
-    question_text = models.CharField(max_length=200)
+    question_text = RichTextField()
     # 질문 등록시간 필드
     pub_date = models.DateTimeField('date published')
 
