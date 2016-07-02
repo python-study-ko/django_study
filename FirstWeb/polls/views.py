@@ -25,3 +25,7 @@ def vote(request, question_id):
         selected_choice.save()
         # POST 데이터를 정상적으로 처리시 HttpResponsRedirect를 반환하여 리다이렉션 처리
         return HttpResponseRedirect(reverse('polls:results',args=(p.id,)))
+
+def results(request, question_id):
+    question = get_object_or_404(Question,pk = question_id)
+    return render(request,'polls/results.html',{'question':question})
