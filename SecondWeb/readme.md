@@ -18,4 +18,11 @@
     python manage.py startapp books 명령어로 앱 추가
     settings.py에 앱 추가하기
 
-
+### 4. 모델 추가
+    models.py에 모델 추가
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py createsuperuser
+    +hotfix boto3가 아닌 boto로 설치해주세요
+    +hotfix settings.py s3설정 입부변경 코드 확인바람
+    +testOK ckeditor및 s3파일 업로드 성공적으로 확인 완료!

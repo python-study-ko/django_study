@@ -134,10 +134,9 @@ MEDIA_ROOT = os.path.join(tempfile.gettempdir(), 'ck_media')
 CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
 CKEDITOR_UPLOAD_PATH = "uploads/"
 # s3 설정
-AWS_S3_HOST = 's3.ap-northeast-2.amazonaws.com' # 서울 리전
+AWS_S3_HOST = 's3-ap-northeast-2.amazonaws.com' # 서울 리전
 AWS_QUERYSTRING_AUTH = False
 AWS_ACCESS_KEY_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
 AWS_SECRET_ACCESS_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
 AWS_STORAGE_BUCKET_NAME = 'xxxxxxxx'
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto.S3BotoStorage"
-MEDIA_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
