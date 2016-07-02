@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     # storages
     'storages',
+    # 실습용 앱
+    'books',
 ]
 
 MIDDLEWARE_CLASSES = [

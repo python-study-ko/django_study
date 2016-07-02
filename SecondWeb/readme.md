@@ -13,7 +13,9 @@
 ### 2. 작업준비(2)
     ckeditor, s3 연동하기 - settings.py,urlspy 건드려주기
     settings.sample파일의 확장자를 변경하시면 됩니다.
-    python manage.py collectstatic 명령어로 ckeditor을 위한 정적파일 모으기
-
+    python manage.py collectstatic 명령어로 ckeditor을 위한 정적파일 모으
+### 3. app 생성하기
+    python manage.py startapp books 명령어로 앱 추가
+    settings.py에 앱 추가하기
 
 
