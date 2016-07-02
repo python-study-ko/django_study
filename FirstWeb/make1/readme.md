@@ -29,3 +29,4 @@
 ### +hotfix views.py import Choice
 ### 16. results 템플릿,뷰 구현
 ### 17. admin 꾸미기(필드 위치 변경)
+### 18. admin 꾸미기(필드분리,필드접기)

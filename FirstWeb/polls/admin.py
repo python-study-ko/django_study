@@ -4,7 +4,10 @@ from django.contrib import admin
 from polls.models import Question,Choice
 
 class QuestionAdmin(admin.ModelAdmin):
-    fields = ['pub_date','question_text']
+    fieldsets = [
+        ('질문 내용',{'fields':['question_text']}),
+        ('질문 날짜',{'fields':['pub_date'],'classes':['collapse']}),
+    ]
 
 admin.site.register(Question,QuestionAdmin)
 admin.site.register(Choice)
