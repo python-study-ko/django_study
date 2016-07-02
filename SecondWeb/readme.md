@@ -10,4 +10,10 @@
 ### 1. 작업준비(1)
     가상환경 생성 -> pip install -r requirements.txt
     프로젝트 시작 django-admin.py startproject make2
+### 2. 작업준비(2)
+    ckeditor, s3 연동하기 - settings.py,urlspy 건드려주기
+    settings.sample파일의 확장자를 변경하시면 됩니다.
+    python manage.py collectstatic 명령어로 ckeditor을 위한 정적파일 모으기
+
+
 

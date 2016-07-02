@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+import tempfile
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -110,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
 # 한국 설정
-LANGUAGE_CODE = 'ko-ㅏㄱ'
+LANGUAGE_CODE = 'ko-kr'
 TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
@@ -130,8 +131,8 @@ STATIC_ROOT = os.path.join(tempfile.gettempdir(), 'ck_static')
 MEDIA_ROOT = os.path.join(tempfile.gettempdir(), 'ck_media')
 CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
 CKEDITOR_UPLOAD_PATH = "uploads/"
-# s3 연동
-AWS_S3_HOST = 's3.ap-northeast-2.amazonaws.com'
+# s3 설정
+AWS_S3_HOST = 's3.ap-northeast-2.amazonaws.com' # 서울 리전
 AWS_QUERYSTRING_AUTH = False
 AWS_ACCESS_KEY_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
 AWS_SECRET_ACCESS_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
