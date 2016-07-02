@@ -31,3 +31,4 @@
 ### 17. admin 꾸미기(필드 위치 변경)
 ### 18. admin 꾸미기(필드분리,필드접기)
 ### 19. admin 꾸미기(다중 테이블 필드를 동시에 띄우기)
+### 20. admin 꾸미기(list_display,filter,search)
