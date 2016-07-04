@@ -9,7 +9,6 @@ class Book(models.Model):
     summary = RichTextUploadingField()
     publication_date = models.DateField()
 
-    @property
     def __str__(self):
         return self.title
 
@@ -25,8 +24,8 @@ class Author(models.Model):
 class Publisher(models.Model):
     name = models.CharField(max_length=50)
     address = models.CharField(max_length=100)
-    website = models.URLField()
     summary = RichTextUploadingField()
+    website = models.URLField()
 
     def __str__(self):
         return self.name

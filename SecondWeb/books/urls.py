@@ -1,5 +1,5 @@
 from django.conf.urls import patterns,url
-from book import views
+from books import views
 
 urlpatterns = patterns('',
                        # 메인페이지

@@ -35,3 +35,4 @@
 ### 7. 템플릿 구현
     +hotfix models.py에서 publisher summary필드
 ### 8. view 구현
+### hotfix urls.py 모듈명, namespace 변
