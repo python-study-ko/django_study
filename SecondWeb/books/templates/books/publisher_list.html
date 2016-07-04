@@ -1,0 +1,10 @@
+{% extends "base_books.html" %}
+
+{% block content %}
+    <h2>출판사 목록</h2>
+    <ul>
+        {% for publisher in object_list %}
+            <li><a href="{% url 'books:publisher_detail' publisher.id %}">{{ publisher.name }}</a> </li>
+        {% endfor %}
+    </ul>
+{% endblock content %}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static "admin/css/base.css" %}" />
+    <meta charset="UTF-8">
+    <title>{% block title %}하늘이의 멋진 사이트 {% endblock %}</title>
+</head>
+<body>
+    <div id="sidebar">
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">프로젝트 메인페이지</a> </li>
+            <li><a href="/admin">관리자</a></li>
+        </ul>
+        {% endblock %}
+        <br>
+    </div>
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

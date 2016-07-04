@@ -30,3 +30,7 @@
 ### 5. urlCONF추가
     각 뷰로 연결될 url패턴 추가
     추후 각 뷰를 테스트할때 구현이 안된 뷰의 url은 주석처리를 하고 테스트할 예정입니다.
+
+### 6. books 세부 url패턴 추가
+### 7. 템플릿 구현
+    +hotfix models.py에서 publisher summary필드 수
