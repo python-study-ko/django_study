@@ -26,3 +26,7 @@
     +hotfix boto3가 아닌 boto로 설치해주세요
     +hotfix settings.py s3설정 입부변경 코드 확인바람
     +testOK ckeditor및 s3파일 업로드 성공적으로 확인 완료!
+
+### 5. urlCONF추가
+    각 뷰로 연결될 url패턴 추가
+    추후 각 뷰를 테스트할때 구현이 안된 뷰의 url은 주석처리를 하고 테스트할 예정입니다.
