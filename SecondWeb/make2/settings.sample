@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'storages',
     # 실습용 앱
     'books',
+    # 리치텍스트 뷰
+    'django_bleach',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -134,6 +136,7 @@ STATIC_ROOT = os.path.join(tempfile.gettempdir(), 'ck_static')
 MEDIA_ROOT = os.path.join(tempfile.gettempdir(), 'ck_media')
 CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
 CKEDITOR_UPLOAD_PATH = "uploads/"
+
 # s3 설정
 AWS_S3_HOST = 's3-ap-northeast-2.amazonaws.com' # 서울 리전
 AWS_QUERYSTRING_AUTH = False

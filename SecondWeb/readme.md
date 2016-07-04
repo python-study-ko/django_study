@@ -35,4 +35,6 @@
 ### 7. 템플릿 구현
     +hotfix models.py에서 publisher summary필드
 ### 8. view 구현
-### hotfix urls.py 모듈명, namespace 변
+### hotfix urls.py 모듈명, namespace 변경
+### add django-bleach
+    ckeditro로 작성한 리치텍스트포맷을 온전히 보여주기 위한 라이브러리
