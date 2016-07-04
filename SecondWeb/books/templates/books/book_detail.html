@@ -14,5 +14,7 @@
     <br>
     개요:
     <br>
+    {% autoescape off %}
     {{ object.summary }}
+    {% endautoescape %}
 {% endblock content %}

@@ -6,5 +6,7 @@
     <li>주소: {{ object.address }}</li>
     <br>
     개요:
+    {% autoescape off %}
     {{ object.summary }}
+    {% endautoescape %}
 {% endblock content %}
