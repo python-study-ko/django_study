@@ -125,7 +125,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-
+# 템플릿 파일 설정
+TEMPLATES_DIRS=[os.path.join(BASE_DIR,'templates')]
 # ckeditor 설정
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
